@@ -1,0 +1,20 @@
+{
+  "name": "poetry-workflow",
+  "version": "1.0.0",
+  "description": "Alfred workflow for Chinese Classic Poetry",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "bash ./script/build.sh",
+    "clear": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "zeroxiaobai@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
