@@ -10,7 +10,7 @@ poetry-workflow 是一个随机生成一句古诗的 alfred workflow。基于[�
 
 1. 在[这里](https://github.com/zeronight/poetry-workflow/releases)下载最新的 poety-workflow
 
-2. 当你导入 Feishu-Docs-workflow 时，设置 alfred 环境变量 **NODE_PATH** ，说明如下：
+2. 当你导入 poety-workflow 时，设置 alfred 环境变量 **NODE_PATH** ，说明如下：
 
 * **NODE_PATH**: nodejs 的绝对地址，用于执行 js 脚本，默认值是 **/usr/local/bin/node**
 
