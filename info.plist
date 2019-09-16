@@ -48,6 +48,52 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AF2B6147-1FFF-43E9-9DC0-A526FFE711F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>813BEA9F-54A9-40A9-B189-3DE1EE775746</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -94,52 +140,6 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>813BEA9F-54A9-40A9-B189-3DE1EE775746</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>AF2B6147-1FFF-43E9-9DC0-A526FFE711F6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Classical Chinese poetry.
@@ -150,23 +150,23 @@ Readme: https://github.com/zeronight/poetry-workflow</string>
 		<key>2F481A84-5A0D-4FC1-A201-289ABC3461F3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>355</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>175</integer>
 		</dict>
 		<key>813BEA9F-54A9-40A9-B189-3DE1EE775746</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>525</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>175</integer>
 		</dict>
 		<key>AF2B6147-1FFF-43E9-9DC0-A526FFE711F6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>25</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>175</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
